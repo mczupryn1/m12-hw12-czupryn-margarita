@@ -8,9 +8,9 @@
 body {
   display: grid;
   grid-template-areas:
-    "1 2"
-    "b b"
-    "c c";
+    "1 2 3"
+    "b b b"
+    "c c c";
   font-family: 'Indie Flower', cursive;
   font-size: 1.2rem;
   margin: 0;
@@ -68,7 +68,7 @@ body {
 
 .img_card__container {
   display: grid;
-  grid-area: b / 2 / auto / span 4;
+  grid-area: b / 3 / c / auto / span 4;
   grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
   grid-auto-rows: 350px;
   grid-area: b / 2 / auto / span 3;
